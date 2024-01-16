@@ -5,7 +5,7 @@
 }
 
 body{
-  background-color: lightgrey;
+  background-color: #f6f8f9;
   font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
 }
@@ -44,6 +44,8 @@ header{
   height: 100px;
 }
 
+
+
 .container img{
   margin-left: 20px;
   vertical-align: middle;
@@ -52,9 +54,12 @@ header{
 .container span{
   font-size:3rem;
   font-weight: bold;
-  line-height:100px;;
+  line-height:100px;
 }
 
+span.title{
+  vertical-align: middle;
+}
 /* Main  */
 
 main{
@@ -63,11 +68,12 @@ main{
   height: 1000px;
   margin: 30px 100px;
   border-radius: 3px;
+  padding: 0 45px;
 }
 
 main .little_container{
-  border-bottom: 3px solid lightgray;
-  padding: 0 50px;
+  border-bottom: 3px solid #f6f8f9;
+  padding: 10px 50px;
 }
 
 main .little_container #task{
@@ -94,7 +100,7 @@ main .big_container{
 }
 
 .big_container span {
-  font-size: 40px;
+  font-size: 15px;
   vertical-align: middle;
 }
 
