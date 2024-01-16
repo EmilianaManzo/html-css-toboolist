@@ -5,5 +5,62 @@
 }
 
 body{
-  background-color: #f6f8f9;
+  background-color: lightgrey;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* Regole generali */
+.little_container button{
+  padding: 6px 5px;
+  text-align: center;
+  border-radius: 4px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+
+header{
+  background-color: white;
+  height: 100px;
+}
+
+.container{
+  height: 100px;
+}
+
+.container img{
+  margin-left: 20px;
+vertical-align: middle;
+}
+
+.container span{
+  font-size:2rem;
+  font-weight: bold;
+  line-height:100px;;
+}
+
+
+main{
+  background-color: white;
+  max-width: 1400px;
+  max-height: 1000px;
+  margin: 30px 100px;
+  border-radius: 3px;
+}
+
+main .little_container{
+  border-bottom: 3px solid lightgray;
+}
+
+main .little_container #task{
+  background-color: #47adf1;
+  color: white;
+  border: none;
+}
+
+
+main .little_container #section{
+  background-color: white; 
+  color:#b5b9bb;
+  border: 1px solid #b5b9bb;
 }
