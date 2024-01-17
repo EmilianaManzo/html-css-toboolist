@@ -11,48 +11,57 @@ body{
 }
 
 /* Regole generali */
-.little_container button{
-  padding: 6px 5px;
+
+.little_container .btn{
+  font-size: .7em;
   text-align: center;
+  padding: 5px 8px;
+  border: none;
   border-radius: 4px;
-  margin: 5px;
   cursor: pointer;
 }
 
-.under_row li {
+
+.big_container li {
   list-style: none;
-  font-size: 1rem;
+  
 }
 
-.under_row .rounded{
+.big_container h3{
+  font-size: 1.5rem;;
+}
+
+.rounded{
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 17px;
+  font-size: .8rem;
+}
+
+li .badge{
   color: white;
   border-radius: 50px;
-  border: none;
-  height: 20px;
-  width: 20px;
-  padding: 10px 10px;
-  font-size: 0.5em;
-}
+  padding: 5px 8px;
+  font-size: 0.8em;
+} 
 
 /* Header  */
 header{
   background-color: white;
-  height: 100px;
-}
-
-.container{
-  height: 100px;
+  padding: 10px 20px;
 }
 
 
-
-.container img{
+header img{
   margin-left: 20px;
   vertical-align: middle;
 }
 
-.container span{
-  font-size:3rem;
+header span{
+  font-size: 40px;
   font-weight: bold;
   line-height:100px;
 }
@@ -64,91 +73,88 @@ span.title{
 
 main{
   background-color: white;
-  max-width: 1400px;
-  height: 1000px;
-  margin: 30px 100px;
+  max-width: 950px;
+  margin: 50px auto;
   border-radius: 3px;
-  padding: 0 45px;
 }
 
-main .little_container{
-  border-bottom: 3px solid #f6f8f9;
-  padding: 10px 50px;
+.little_container,
+.big_container{
+  padding: 15px 40px;
 }
 
-main .little_container #task{
+.little_container{
+  border-bottom: 2px solid #f6f8f9;
+}
+
+.btn.btn-task{
   background-color: #47adf1;
   color: white;
-  border: none;
+  border: 1px solid #47adf1;
 }
 
+.btn.btn-task:hover{
+  background-color: #7cc0ed;
+}
 
-main .little_container #section{
+.btn.btn-section{
   background-color: white; 
   color:#b5b9bb;
   border: 1px solid #b5b9bb;
 }
 
-main .big_container{
-  height: 50px;
-  padding: 50px 50px;
-
+.btn.btn-section:hover{
+  background-color:#a1a4a5 ;
 }
 
-.big_container h2{
-  line-height: 50px;
+.big_container li h3::before{
+  content:"\25BE";
 }
 
-.big_container span {
-  font-size: 15px;
-  vertical-align: middle;
+
+.rounded.check{
+  content: '\2713';
+  color: green;
+  border: 1px solid green;
 }
 
-.big_container .under_row .check{
-  font-size: .8em;
-  color: #6cc5b0;
-  border-radius: 50%;
-  border: 1px solid #6cc5b0;
-  height: 50px;
-  width: 50px;
-  text-align: center;
-  line-height: 50px;
-  padding: 2px 3px;
-}
-.big_container .under_row .cross{
-  font-size: .8em;
+.rounded.cross{
+  content: '\2717';
   color: red;
-  border-radius: 50%;
   border: 1px solid red;
-  height: 50px;
-  width: 50px;
-  text-align: center;
-  line-height: 50px;
-  padding: 2px 3px;
 }
 
 
-.under_row .blue {
+
+.big_container ul ul{
+  margin-bottom:20px;
+}
+
+.big_container ul ul li{
+  line-height: 40px;
+}
+
+.badge.blue {
   background-color: #47adf1;
 }
 
-.under_row .violet {
+.badge.violet {
   background-color: #9c72e4;
 }
 
-.under_row .green {
+.badge.green {
   background-color: #64c0a9;
 }
 
-.under_row .orange {
+.badge.orange {
   background-color: #f29e33;
 }
 
-.under_row .pink {
+.badge.pink {
   background-color: #d863a1;
 }
 
-.under_row .lemon {
+.badge.lemon {
   background-color: #b0c926;
 }
 

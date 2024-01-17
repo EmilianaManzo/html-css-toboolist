@@ -11,10 +11,8 @@
 
   <!-- Header -->
   <header>
-    <div class="container">
-      <img src="assets/img/Logo.png" alt="Logo">
-      <span class="title">Toboolist</span>
-    </div>
+    <img src="assets/img/Logo.png" alt="Logo">
+    <span class="title">Toboolist</span>
   </header>
   <!-- /Header -->
 
@@ -22,99 +20,85 @@
   <main>
     <section class="little_container">
       <div>
-        <button id="task">Add Task</button>
-        <button id="section">Add Section</button>
+        <button class="btn btn-task">Add Task</button>
+        <button class="btn btn-section">Add Section</button>
       </div>
     </section>
 
     <section class=" big_container">
-      <div class="row">
-        <div class="upper_row">
-          <h2><span>&#11206</span> New Task </h2>
-        </div>
-        <div class="under_row">
+      <ul>
+        <li>
+          <h3>New Task</h3>
           <ul>
             <li>
-              <span class="check">&check;</span>
+              <span class="rounded check">&check;</span>
               Quarterly Newsletter
-              <span class="blue rounded">Editorial<span>
+              <span class="blue badge">Editorial<span></span>
             </li>
           </ul>
-        </div>
-      </div>
+        </li>
 
-      <div class="row">
-          <div class="upper_row">
-            <h2><span>&#11206</span> Today </h2>
-          </div>
+        <li>
+          <h3>Today</h3>
+          <ul>
+            <li>
+              <span class="rounded check">&check;</span>
+              Recruiting blog post
+              <span class="blue badge">Editorial<span>
+            </li>
 
-          <div class="under_row">
-            <ul>
-              <li>
-                <span class="check">&check;</span>
-                Recruiting blog post
-                <span class="blue rounded">Editorial<span>
-              </li>
-  
-              <li>
-                <span class="check">&check;</span>
-                Mobile app launch
-                <span class="violet rounded">Q1 Goals<span>
-              </li>
-  
-              <li> 
-                <span class="cross">&cross;</span>
-                Interview John H.
-                <span class="green rounded">Recruiting<span>
-              </li>
-  
-              <li>
-                <span class="check">&check;</span>
-                Summit update to mobile storefront
-                <span class="orange rounded">Mobile<span>
-              </li>
-  
-            </ul> 
-          </div>
-        </div>
-      
-        <div class="row">
-          <div class="upper_row">
-            <h2><span>&#11206</span> Upcoming </h2>
-          </div>
+            <li>
+              <span class="rounded check">&check;</span>
+              Mobile app launch
+              <span class="violet badge">Q1 Goals<span>
+            </li>
 
-          <div class="under_row">
-            <ul>
-              <li> 
-                <span class="cross">&cross;</span>
-                Schedule meeting with Alex
-              </li>
+            <li> 
+              <span class="rounded cross">&cross;</span>
+              Interview John H.
+              <span class="green badge">Recruiting<span>
+            </li>
 
-              <li>
-                <span class="check">&check;</span>
-                Homepage refresh 
-                <span class="pink rounded">Website<span>
-              </li>
+            <li>
+              <span class="rounded check">&check;</span>
+              Summit update to mobile storefront
+              <span class="orange badge">Mobile<span>
+            </li>
+        </li>
+        
+        <li>
+          <h3>Upcoming</h3>
+          <ul>
+            <li> 
+              <span class="rounded cross">&cross;</span>
+              Schedule meeting with Alex
+            </li>
 
-              <li>
-                <span class="check">&check;</span>
-                Onboard new Sales team members
-                <span class="lemon rounded">Sales<span>
-              </li>
+            <li>
+              <span class="rounded check">&check;</span>
+              Homepage refresh 
+              <span class="pink badge">Website<span>
+            </li>
 
-              <li>
-                <span class="check">&check;</span>
-                Review editorial calendar
-                <span class="blue rounded">Editorial<span>
-              </li>
-            </ul>
-          </div>  
+            <li>
+              <span class="rounded check">&check;</span>
+              Onboard new Sales team members
+              <span class="lemon badge">Sales<span>
+            </li>
 
-      </section>
+            <li>
+              <span class="rounded check">&check;</span>
+              Review editorial calendar
+              <span class="blue badge">Editorial<span>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+
       
   
   </main>
-  <!-- /Main  -->
 
 
 </body>
